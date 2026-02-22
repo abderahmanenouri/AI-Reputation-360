@@ -1,0 +1,4 @@
+.venv/
+src/results/model_checkpoints/
+**/__pycache__/
+*.pyc
