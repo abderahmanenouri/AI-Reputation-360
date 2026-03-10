@@ -1,17 +1,17 @@
-# 🤖 AI Reputation 360 : Analyse de Sentiments & Topic Modeling
+# AI Reputation 360 : Analyse de Sentiments & Topic Modeling
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg) ![Machine Learning](https://img.shields.io/badge/Machine_Learning-Scikit_Learn-orange.svg) ![Deep Learning](https://img.shields.io/badge/Deep_Learning-CamemBERT-red.svg) ![Power BI](https://img.shields.io/badge/Dashboard-Power_BI-yellow.svg)
 
 Ce projet est un pipeline complet de Data Science permettant d'analyser la réputation de trois grandes marques (**Allociné**, **Leboncoin**, **TCL Lyon**) à partir de **9 532 avis clients**.
 
-## 🚀 Fonctionnalités Clés
+## Fonctionnalités Clés
 - **Scraping de Données** : Collecte automatisée et structurée d'avis clients.
 - **Sentiment Analysis (Deep Learning)** : Utilisation du modèle **CamemBERT** pour classer les sentiments (Positif, Négatif, Neutre).
 - **Topic Modeling** : Extraction automatique des thématiques majeures (films, cinémas, applications, service client) via **BERTopic**.
 - **Indice de Confiance** : Évaluation de la fiabilité des prédictions de l'IA via des scores de probabilité.
 - **Business Intelligence** : Dashboard interactif sous **Power BI** pour visualiser l'impact métier.
 
-## 📊 Galerie du Dashboard Power BI
+## Galerie du Dashboard Power BI
 *Les visuels ci-dessous présentent les résultats de l'analyse interactive.*
 
 ### Vue d'ensemble (Sentiments & Thématiques)
@@ -29,20 +29,20 @@ Ce projet est un pipeline complet de Data Science permettant d'analyser la répu
 ![Focus Thèmes TCL Lyon](images/Capture%20d'écran%202026-02-22%20230258.png)
 ![Répartition Sentiments Marque B](images/Capture%20d'écran%202026-02-22%20230316.png)
 
-## 🧠 Analyse Technique (Notebook Python)
+## Analyse Technique (Notebook Python)
 Le cœur de l'analyse est contenu dans le fichier `Analyse_Reputation_IA.ipynb`.
 - **Modèle utilisé** : CamemBERT (modèle spécialisé pour le Français).
 - **Validation** : Visualisation de l'indice de certitude du modèle pour garantir la qualité des insights.
 - **Outils** : Pandas, Scikit-learn, Transformers et Seaborn.
 
-## 📁 Structure du Projet
+## Structure du Projet
 - `src/` : Scripts Python du pipeline (numérotés `01_` à `06_`).
 - `Analyse_Reputation_IA.ipynb` : Notebook d'analyse et de visualisation.
 - `data/` : Dossier contenant les datasets CSV (non versionné, voir ci-dessous).
 - `images/` : Galerie de captures d'écran du dashboard.
 - `results/` : Métriques, prédictions ML et visualisations BERTopic (HTML).
 
-## 📥 Données
+## Données
 Les données d'avis clients sont scrapées depuis **Google Play** via le package `google-play-scraper`.
 Elles ne sont **pas incluses dans le dépôt** (fichiers trop volumineux).
 
@@ -52,7 +52,7 @@ python src/01_load_data.py
 ```
 Cela produira le fichier `data/raw/reviews_all.csv` (~9 500 avis).
 
-## 🛠️ Installation
+## Installation
 ```bash
 # Cloner le dépôt
 git clone https://github.com/<votre-username>/AI-Reputation-360.git
@@ -67,7 +67,7 @@ source .venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage
+## Usage
 Exécuter le pipeline étape par étape :
 ```bash
 python src/01_load_data.py        # Scraping des avis
@@ -78,7 +78,7 @@ python src/05_dl_finetuning.py    # Fine-tuning CamemBERT (optionnel, GPU)
 python src/06_export_powerbi.py   # Export final pour Power BI
 ```
 
-## 📈 Résultats
+## Résultats
 | Modèle | Accuracy | F1 Score | Temps |
 |--------|----------|----------|-------|
 | TF-IDF + Logistic Regression | 78.87% | 80.33% | ~1s |
