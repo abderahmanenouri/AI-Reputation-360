@@ -1,2 +1,0 @@
-Model,Accuracy,F1_Score,Training_Time_sec
-TF-IDF + Logistic Regression,0.7887,0.8033,0.84

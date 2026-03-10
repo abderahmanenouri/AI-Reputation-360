@@ -1,4 +1,34 @@
+# Environnements
 .venv/
-src/results/model_checkpoints/
+venv/
+env/
+
+# Python
 **/__pycache__/
 *.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données sensibles / lourdes
+data/
+*.csv
+*.json
+
+# Modèles (souvent trop lourds pour Git)
+src/results/model_checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# Power BI (fichier binaire lourd)
+*.pbix
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
