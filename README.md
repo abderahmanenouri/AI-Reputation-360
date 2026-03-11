@@ -15,19 +15,19 @@ Ce projet est un pipeline complet de Data Science permettant d'analyser la répu
 *Les visuels ci-dessous présentent les résultats de l'analyse interactive.*
 
 ### Vue d'ensemble (Sentiments & Thématiques)
-![Répartition Globale des Sentiments](images/Capture%20d'écran%202026-02-22%20230057.png)
-![Top Thèmes Extraits](images/Capture%20d'écran%202026-02-22%20230111.png)
+![Répartition Globale des Sentiments](images/capture_01.png)
+![Top Thèmes Extraits](images/capture_02.png)
 
 ### Analyses Temporelles & Tendances
-![Évolution des Sentiments par Année](images/Capture%20d'écran%202026-02-22%20230129.png)
-![Focus Tendances 2025-2026](images/Capture%20d'écran%202026-02-22%20230151.png)
+![Évolution des Sentiments par Année](images/capture_03.png)
+![Focus Tendances 2025-2026](images/capture_04.png)
 
 ### Analyses par Plateforme (Allociné, Leboncoin, TCL)
-![Focus Thèmes Leboncoin](images/Capture%20d'écran%202026-02-22%20230205.png)
-![Répartition Sentiments Marque A](images/Capture%20d'écran%202026-02-22%20230219.png)
-![Évolution Temporelle Spécifique](images/Capture%20d'écran%202026-02-22%20230239.png)
-![Focus Thèmes TCL Lyon](images/Capture%20d'écran%202026-02-22%20230258.png)
-![Répartition Sentiments Marque B](images/Capture%20d'écran%202026-02-22%20230316.png)
+![Focus Thèmes Leboncoin](images/capture_05.png)
+![Répartition Sentiments Marque A](images/capture_06.png)
+![Évolution Temporelle Spécifique](images/capture_07.png)
+![Focus Thèmes TCL Lyon](images/capture_08.png)
+![Répartition Sentiments Marque B](images/capture_09.png)
 
 ## Analyse Technique (Notebook Python)
 Le cœur de l'analyse est contenu dans le fichier `Analyse_Reputation_IA.ipynb`.
